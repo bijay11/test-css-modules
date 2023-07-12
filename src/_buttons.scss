@@ -1,0 +1,24 @@
+@use "variables";
+@use "mixins";
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: variables.$fontSize;
+  color: #fff;
+  background-color: variables.$primaryColor;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin: 1rem;
+
+  @include mixins.hover-effect;
+}
+
+.primary-button {
+  background-color: variables.$primaryColor;
+}
+
+.secondary-button {
+  background-color: variables.$secondaryColor;
+}

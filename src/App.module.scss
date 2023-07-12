@@ -1,0 +1,22 @@
+@use "variables";
+@use "mixins";
+@use "buttons";
+
+.myComponent {
+  @include mixins.flex-center;
+  font-size: variables.$fontSize;
+  color: variables.$primaryColor;
+
+  .myButton {
+    @extend .button;
+    margin-top: 20px;
+
+    &.primary {
+      @extend .primary-button;
+    }
+
+    &.secondary {
+      @extend .secondary-button;
+    }
+  }
+}
