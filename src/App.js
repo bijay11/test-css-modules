@@ -1,17 +1,14 @@
 import React from "react";
 import styles from "./App.module.scss";
+import { Button } from "./components/Button/Button";
 
 const App = () => {
   return (
     <div className={styles.myComponent}>
       <h1>Welcome to My App</h1>
 
-      <button className={`${styles.myButton} ${styles.primary}`}>
-        Primary Button
-      </button>
-      <button className={`${styles.myButton} ${styles.secondary}`}>
-        Secondary Button
-      </button>
+      <Button text="Primary Button" type="primary" />
+      <Button text="Secondary  Button" type="secondary" />
     </div>
   );
 };
