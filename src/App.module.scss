@@ -1,6 +1,5 @@
 @use "variables";
 @use "mixins";
-@use "buttons";
 
 .myComponent {
   @include mixins.flex-center;
