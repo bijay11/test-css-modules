@@ -1,3 +1,5 @@
 .oldnavy {
+  // all components using  --secondary-background-color
+  // within ON will get impacted
   --secondary-background-color: var(--gray-color);
 }

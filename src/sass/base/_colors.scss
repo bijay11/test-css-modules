@@ -1,18 +1,26 @@
 :root {
-  // These are not required to import
+  //
+  // These variables defined inside root are not required to import
+  //
+
+  // general colors
   --green-color: green;
   --orange-color: orange;
   --red-color: red;
   --gray-color: gray;
+  --sky-blue-color: #237aae;
+  --slight-orange-color: #b4a825;
 
   // permanent BR color
   // reuse the same color defined above
   --br-bg-color: var(--orange-color);
 
-  //--ff-br-bg-color: #7fffd4;
-  // --ff-at-bg-color: #237aae;
+  // feature-flag related colors
+  // --ff-br-bg-color: var(--slight-orange-color);
+  // --ff-at-bg-color: var(--sky-blue-color);
 }
 
+// These colors could be added to root to but leaving it here to show the different approaches
 $primary-color: #007bff;
 $secondary-color: #8a141a;
 $white-color: #fff;
