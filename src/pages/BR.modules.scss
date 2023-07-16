@@ -1,7 +1,13 @@
 // BRAND SPECIFIC COLOR CHANGE
 
 .bananarepublic {
-  // since --orange-color is in root, no need to import
-  --container-bg: var(--orange-color);
+  // feature flag case
+  //
+  // first variable will be for feature flag
+  // if FF value is not there, it moves to next var
+  //
+  // if first variable is not found of second var,
+  // it defaults to colors.$white-color
+  --container-bg: var(--ff-br-bg-color, var(--orange-color));
   --primary-background-color: var(--red-color);
 }
