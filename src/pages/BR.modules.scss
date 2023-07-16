@@ -8,6 +8,6 @@
   //
   // if first variable is not found of second var,
   // it defaults to colors.$white-color
-  --container-bg: var(--ff-br-bg-color, var(--orange-color));
+  --container-bg: var(--ff-br-bg-color, var(--br-bg-color));
   --primary-background-color: var(--red-color);
 }

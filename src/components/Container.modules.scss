@@ -2,4 +2,7 @@
 
 .container {
   background-color: var(--container-bg, colors.$white-color);
+
+  // don't want to rely on rem
+  padding: 16px;
 }

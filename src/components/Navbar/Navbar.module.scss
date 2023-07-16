@@ -2,6 +2,8 @@
 
 .navbar {
   background-color: colors.$dark-color;
+
+  // don't want to rely on rem
   padding: 16px;
 
   .navbar__list {

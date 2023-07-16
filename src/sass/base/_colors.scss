@@ -4,6 +4,11 @@
   --orange-color: orange;
   --red-color: red;
   --gray-color: gray;
+
+  // permanent BR color
+  // reuse the same color defined above
+  --br-bg-color: var(--orange-color);
+
   //--ff-br-bg-color: #7fffd4;
   // --ff-at-bg-color: #237aae;
 }
