@@ -1,12 +1,12 @@
-@use "../../variables";
+@use "../base/colors";
 @use "../../mixins";
 
 .button {
   display: inline-block;
   padding: 10px 20px;
-  font-size: variables.$fontSize;
+  font-size: 16px;
   color: #fff;
-  background-color: variables.$primaryColor;
+  background-color: colors.$primary-color;
   border-radius: 5px;
   cursor: pointer;
   border: none;
@@ -16,9 +16,9 @@
 }
 
 .primary-button {
-  background-color: variables.$primaryColor;
+  background-color: colors.$primary-color;
 }
 
 .secondary-button {
-  background-color: variables.$secondaryColor;
+  background-color: colors.$secondary-color;
 }

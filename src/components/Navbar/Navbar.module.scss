@@ -1,24 +1,22 @@
+@use "../../sass/base/colors" as colors;
+
 .navbar {
-  background-color: #f2f2f2;
-  padding: 20px;
-}
+  background-color: colors.$dark-color;
+  padding: 16px;
 
-.navbar__list {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
+  .navbar__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
 
-.navbar__item {
-  margin: 0 10px;
-}
+  .navbar__item {
+    margin: 0 10px;
+  }
 
-.navbar__link {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-}
-
-.active {
-  color: #ff0000;
+  .navbar__link {
+    text-decoration: none;
+    color: colors.$white-color;
+    font-weight: bold;
+  }
 }

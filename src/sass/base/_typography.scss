@@ -1,1 +1,21 @@
 // h1 title and so on
+// https://chipcullen.com/how-to-structure-your-typography-in-sass/
+
+// https://stackoverflow.com/questions/59673154/how-to-share-value-from-js-object-to-sass-variable-in-react-js
+
+body {
+  font-family: $sans-serif;
+  font-weight: $light;
+  color: $txt-primary; //color variable set elsewhere
+  background: $body-bg;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: $accent-color;
+}
+
+p {
+  color: $text-color;
+}
