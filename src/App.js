@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./App.module.scss";
 import { Button } from "./components/Button/Button";
 
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 const App = () => {
   return (
     <div className={styles.myComponent}>
