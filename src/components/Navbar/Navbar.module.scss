@@ -1,0 +1,24 @@
+.navbar {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.navbar__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar__item {
+  margin: 0 10px;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.active {
+  color: #ff0000;
+}

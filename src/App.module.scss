@@ -1,8 +1,0 @@
-@use "variables";
-@use "mixins";
-
-.myComponent {
-  @include mixins.flex-center;
-  font-size: variables.$fontSize;
-  color: variables.$primaryColor;
-}
