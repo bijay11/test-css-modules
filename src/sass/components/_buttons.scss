@@ -6,8 +6,7 @@
   padding: 10px 20px;
   font-size: 16px;
   color: #fff;
-  // colors.$primary-color is the fallback;
-  background-color: var(--background-color, colors.$primary-color);
+  background-color: colors.$primary-color;
   border-radius: 5px;
   cursor: pointer;
   border: none;
@@ -17,7 +16,8 @@
 }
 
 .primary-button {
-  background-color: colors.$primary-color;
+  // colors.$primary-color is the fallback;
+  background-color: var(--background-color, colors.$primary-color);
 }
 
 .secondary-button {
