@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "../components/Button/Button";
-import styles from "./BRcolors.modules.scss";
+import styles from "./BR.modules.scss";
 
 export const BananaRepublic = () => {
   return (
