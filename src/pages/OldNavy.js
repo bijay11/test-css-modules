@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "../components/Button/Button";
-import styles from "./oldnavy.modules.scss";
 import { Container } from "../components/Container";
+import styles from "./ON.modules.scss";
 
 export const OldNavy = () => {
   return (
