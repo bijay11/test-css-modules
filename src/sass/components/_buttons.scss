@@ -17,9 +17,10 @@
 
 .primary-button {
   // colors.$primary-color is the fallback;
-  background-color: var(--background-color, colors.$primary-color);
+  background-color: var(--primary-background-color, colors.$primary-color);
 }
 
 .secondary-button {
-  background-color: colors.$secondary-color;
+  // colors.$secondary-color is the fallback;
+  background-color: var(--secondary-background-color, colors.$secondary-color);
 }
