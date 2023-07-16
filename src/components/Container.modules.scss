@@ -1,0 +1,5 @@
+@use "../sass/base/colors";
+
+.container {
+  background-color: var(--container-bg, colors.$white-color);
+}

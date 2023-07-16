@@ -1,3 +1,7 @@
+// BRAND SPECIFIC COLOR CHANGE
+
 .bananarepublic {
-  --background-color: red; /* Set your default background color here */
+  // since --orange-color is in root, no need to import
+  --container-bg: var(--orange-color);
+  --background-color: var(--red-color);
 }
