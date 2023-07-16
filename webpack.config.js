@@ -28,6 +28,12 @@ module.exports = {
           },
           "sass-loader",
         ],
+        // include: path.resolve(__dirname, "src"),
+      },
+      {
+        test: /\.scss$/,
+        exclude: /\.module\.scss$/,
+        use: ["style-loader", "css-loader", "sass-loader"],
       },
     ],
   },
