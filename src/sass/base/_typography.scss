@@ -18,3 +18,20 @@ body {
 // p {
 //   color: $text-color;
 // }
+
+$base-font-size: 16px;
+$heading-font-family: "Arial", sans-serif;
+
+h1 {
+  font-size: $base-font-size * 2;
+  font-family: $heading-font-family;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: $base-font-size;
+  font-family: $heading-font-family;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+}
