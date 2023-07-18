@@ -7,7 +7,7 @@
   --green-color: green;
   --orange-color: orange;
   --red-color: red;
-  --gray-color: gray;
+  --gray-color: #bababa;
   --sky-blue-color: #237aae;
   --slight-orange-color: #b4a825;
   --white-color: #fff;
@@ -20,7 +20,7 @@
 
   // feature-flag related colors
   // --ff-br-bg-color: var(--slight-orange-color);
-  // --ff-at-bg-color: var(--sky-blue-color);
+  // --ff-at-bg-color: var(--gray-color);
 }
 
 // These colors could be added to root to but leaving it here to show the different approaches

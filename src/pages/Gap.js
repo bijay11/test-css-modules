@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "../components/Button/Button";
-import styles from "./gap.modules.scss";
+import styles from "./GP.modules.scss";
 import { Container } from "../components/Container";
 
 export const Gap = () => {

@@ -1,4 +1,13 @@
 .athleta {
   --container-bg: var(--ff-at-bg-color);
   --primary-background-color: var(--green-color);
+
+  & button {
+    border-radius: 0;
+    background: linear-gradient(to right, #31b1ba, #2757c2);
+  }
+
+  & button:last-child {
+    background: linear-gradient(to right, #7a8485, #151a26);
+  }
 }
