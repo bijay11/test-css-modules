@@ -8,8 +8,16 @@ export const Gap = () => {
     <div className={styles.gap}>
       <Container>
         <div>Gap</div>
-        <Button text="Primary Button" type="primary" />
-        <Button text="Secondary  Button" type="secondary" />
+        <Button
+          text="Primary Button"
+          btnType="primary"
+          customGlobalCSS="margin-1"
+        />
+        <Button
+          text="Secondary Button"
+          btnType="secondary"
+          customGlobalCSS="margin-1"
+        />
       </Container>
     </div>
   );

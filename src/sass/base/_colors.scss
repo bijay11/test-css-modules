@@ -10,9 +10,12 @@
   --gray-color: gray;
   --sky-blue-color: #237aae;
   --slight-orange-color: #b4a825;
+  --white-color: #fff;
 
+  //
+  // reuse the same color defined above for Feature flags
+  //
   // permanent BR color
-  // reuse the same color defined above
   --br-bg-color: var(--orange-color);
 
   // feature-flag related colors

@@ -1,4 +1,8 @@
 // load any default css
+//
+// These files should be locked and limited people should be able to modify
+// Assume these files are like tailwind or bootstrap.
+//
 
 @import "./sass/base/reset";
 @import "./sass/base/typography";
