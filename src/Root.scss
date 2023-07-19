@@ -3,6 +3,7 @@
 // These files should be locked and limited people should be able to modify
 // Assume these files are like tailwind or bootstrap.
 //
+// I believe we could use Tailwind too instead of this. But if we use tailwind for instance, we need to do tree-shaking or purge unused css
 
 @import "./sass/base/reset";
 @import "./sass/base/typography";
