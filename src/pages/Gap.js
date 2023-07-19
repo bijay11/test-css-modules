@@ -6,7 +6,7 @@ import { Container } from "../components/Container";
 export const Gap = () => {
   // simulatiing featureFlag
   const isFeatureEnabled = true;
-  const displayTestCss = isFeatureEnabled ? styles.testFeatureFlag : "";
+  const displayTestCss = isFeatureEnabled ? ` ${styles.testFeatureFlag}` : "";
 
   return (
     <div className={styles.gap}>
@@ -15,7 +15,7 @@ export const Gap = () => {
         <Button
           text="Primary Button"
           custGlobalCSS="margin-1"
-          custBtnProperties={`${styles.customBtnPrimary} ${displayTestCss}`}
+          custBtnProperties={`${styles.customBtnPrimary}${displayTestCss}`}
         />
         <Button
           text="Secondary Button"
