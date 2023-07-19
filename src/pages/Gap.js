@@ -5,7 +5,7 @@ import { Container } from "../components/Container";
 
 export const Gap = () => {
   // simulatiing featureFlag
-  const isFeatureEnabled = true;
+  const isFeatureEnabled = false;
   const displayTestCss = isFeatureEnabled ? ` ${styles.testFeatureFlag}` : "";
 
   return (

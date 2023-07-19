@@ -18,5 +18,16 @@
 }
 
 .testFeatureFlag {
-  color: #fff;
+  // we could write have css ready to display like below
+  color: var(--white-color);
+
+  // or we could just want to change the color
+  // we could do like this below
+
+  //
+  // since secondary-background-color change is locally scoped to this class, even if I try to change the secondary color from here, it will not impact the other component which is actually using the secondary class
+
+  //
+  --primary-background-color: var(--purple-color);
+  --secondary-background-color: var(--purple-color);
 }
