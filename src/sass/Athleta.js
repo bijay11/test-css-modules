@@ -1,22 +1,18 @@
 import React from "react";
 import { Button } from "../components/Button/Button";
-import styles from "./GP.modules.scss";
+import styles from "./Athleta.modules.scss";
 import { Container } from "../components/Container";
 
-export const Gap = () => {
-  // simulatiing featureFlag
-  const isFeatureEnabled = true;
-  const displayTestCss = isFeatureEnabled ? ` ${styles.testFeatureFlag}` : "";
-
+export const Athleta = () => {
   return (
-    <div className={styles.gap}>
+    <div className={styles.athleta}>
       <Container>
-        <div>Gap</div>
+        <div>Athleta</div>
+
         <div className={styles.flexWrapper}>
           <Button
             text="Primary Button"
-            custGlobalCSS="margin-1"
-            custBtnProperties={`${styles.customBtnPrimary}${displayTestCss}`}
+            custBtnProperties={styles.customBtnPrimary}
           />
           <Button
             text="Secondary Button"

@@ -1,5 +1,5 @@
 @use "../sass/components/buttons";
-
+@use "../sass/abstracts/mixins";
 // BRAND SPECIFIC COLOR CHANGE
 
 .bananarepublic {
@@ -10,17 +10,16 @@
   //
   // if first variable is not found of second var,
   // it defaults to colors.$white-color
+
+  //  An ultra flexible configuration system for our styling. We'll be well equipped to handle any brand styling requests in the future
+
   --container-bg: var(--ff-br-bg-color, var(--br-bg-color));
   --primary-background-color: var(--green-color);
   --secondary-background-color: var(--sky-blue-color);
 }
 
-.customBtnPrimary {
-  @extend .primary-button;
-}
-
-.customBtnSecondary {
-  @extend .secondary-button;
+.flexWrapper {
+  @include mixins.myFlexMixin(flex-start, center);
 }
 
 .customBtnPrimary {

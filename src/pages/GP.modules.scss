@@ -1,7 +1,12 @@
 @use "../sass/components/buttons";
+@use "../sass/abstracts/mixins";
 
 .gap {
   // takes all default variables
+}
+
+.flexWrapper {
+  @include mixins.myFlexMixin(flex-start, center);
 }
 
 .customBtnPrimary {

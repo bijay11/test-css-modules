@@ -8,15 +8,17 @@ export const Athleta = () => {
     <div className={styles.athleta}>
       <Container>
         <div>Athleta</div>
-        <Button
-          text="Primary Button"
-          custBtnProperties={styles.customBtnPrimary}
-        />
-        <Button
-          text="Secondary Button"
-          custGlobalCSS="margin-1"
-          custBtnProperties={styles.customBtnSecondary}
-        />
+
+        <div className={styles.flexWrapper}>
+          <Button
+            text="Primary Button"
+            custBtnProperties={styles.customBtnPrimary}
+          />
+          <Button
+            text="Secondary Button"
+            custBtnProperties={styles.customBtnSecondary}
+          />
+        </div>
       </Container>
     </div>
   );

@@ -1,6 +1,12 @@
+@use "../sass/abstracts/mixins";
+
 .athleta {
   --container-bg: var(--ff-at-bg-color);
   --primary-background-color: var(--green-color);
+}
+
+.flexWrapper {
+  @include mixins.myFlexMixin(space-between, center);
 }
 
 .customBtnPrimary {

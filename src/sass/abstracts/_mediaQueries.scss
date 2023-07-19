@@ -1,0 +1,11 @@
+@mixin breakpoint-max($size) {
+  @media (max-width: $size) {
+    @content;
+  }
+}
+
+@mixin breakpoint-range($min-size, $max-size) {
+  @media (min-width: $min-size) and (max-width: $max-size) {
+    @content;
+  }
+}

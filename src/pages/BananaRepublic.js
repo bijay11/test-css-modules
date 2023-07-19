@@ -8,16 +8,19 @@ export const BananaRepublic = () => {
     <div className={styles.bananarepublic}>
       <Container>
         <div>Banana Republic</div>
-        <Button
-          text="Primary Button"
-          custGlobalCSS="margin-1"
-          custBtnProperties={styles.customBtnPrimary}
-        />
-        <Button
-          text="Secondary Button"
-          custGlobalCSS="margin-1"
-          custBtnProperties={styles.customBtnSecondary}
-        />
+
+        <div className={styles.flexWrapper}>
+          <Button
+            text="Primary Button"
+            custGlobalCSS="margin-1"
+            custBtnProperties={styles.customBtnPrimary}
+          />
+          <Button
+            text="Secondary Button"
+            custGlobalCSS="margin-1"
+            custBtnProperties={styles.customBtnSecondary}
+          />
+        </div>
       </Container>
     </div>
   );

@@ -1,9 +1,22 @@
 @use "../sass/components/buttons";
+@use "../sass/abstracts/mixins";
+@use "../sass/abstracts/breakpoints";
+@use "../sass/abstracts/mediaQueries";
 
 .oldnavy {
   // all components using  --secondary-background-color
   // within ON will get impacted
   --secondary-background-color: var(--gray-color);
+}
+
+.flexWrapper {
+  // only passing 1 argument, it will not print align-center
+  @include mixins.myFlexMixin(flex-start);
+
+  // overpride previous mixing properties with media-query
+  @include mediaQueries.breakpoint-max(breakpoints.$breakpoint-small-768) {
+    @include mixins.myFlexMixin(space-between, center);
+  }
 }
 
 .customBtnPrimary {
