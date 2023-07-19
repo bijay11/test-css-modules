@@ -11,7 +11,16 @@
   // if first variable is not found of second var,
   // it defaults to colors.$white-color
   --container-bg: var(--ff-br-bg-color, var(--br-bg-color));
-  --primary-background-color: var(--red-color);
+  --primary-background-color: var(--green-color);
+  --secondary-background-color: var(--sky-blue-color);
+}
+
+.customBtnPrimary {
+  @extend .primary-button;
+}
+
+.customBtnSecondary {
+  @extend .secondary-button;
 }
 
 .customBtnPrimary {
