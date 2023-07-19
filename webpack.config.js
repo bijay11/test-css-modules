@@ -23,6 +23,7 @@ module.exports = {
             loader: "css-loader",
             options: {
               modules: {
+                // sort of BEM naming convention
                 localIdentName: "[name]__[local]--[hash:base64:5]",
               },
             },
