@@ -1,3 +1,5 @@
+@use "../sass/components/buttons";
+
 // BRAND SPECIFIC COLOR CHANGE
 
 .bananarepublic {
@@ -10,4 +12,12 @@
   // it defaults to colors.$white-color
   --container-bg: var(--ff-br-bg-color, var(--br-bg-color));
   --primary-background-color: var(--red-color);
+}
+
+.customBtnPrimary {
+  @extend .primary-button;
+}
+
+.customBtnSecondary {
+  @extend .secondary-button;
 }

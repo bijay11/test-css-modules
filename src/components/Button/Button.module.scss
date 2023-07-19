@@ -3,12 +3,4 @@
 .myButton {
   @extend .button;
   margin-top: 20px;
-
-  &.primary {
-    @extend .primary-button;
-  }
-
-  &.secondary {
-    @extend .secondary-button;
-  }
 }

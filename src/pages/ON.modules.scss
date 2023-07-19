@@ -1,5 +1,15 @@
+@use "../sass/components/buttons";
+
 .oldnavy {
   // all components using  --secondary-background-color
   // within ON will get impacted
   --secondary-background-color: var(--gray-color);
+}
+
+.customBtnPrimary {
+  @extend .primary-button;
+}
+
+.customBtnSecondary {
+  @extend .secondary-button;
 }

@@ -10,13 +10,13 @@ export const BananaRepublic = () => {
         <div>Banana Republic</div>
         <Button
           text="Primary Button"
-          btnType="primary"
-          customGlobalCSS="margin-1"
+          custGlobalCSS="margin-1"
+          custBtnProperties={styles.customBtnPrimary}
         />
         <Button
           text="Secondary Button"
-          btnType="secondary"
-          customGlobalCSS="margin-1"
+          custGlobalCSS="margin-1"
+          custBtnProperties={styles.customBtnSecondary}
         />
       </Container>
     </div>
