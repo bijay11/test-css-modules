@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../components/Button/Button";
+import { Button } from "../core-ui/components/Button/Button";
 import styles from "./Athleta.modules.scss";
 import { Container } from "../components/Container";
 
