@@ -1,7 +1,7 @@
-@use "../sass/components/buttons";
-@use "../sass/abstracts/mixins";
-@use "../sass/abstracts/breakpoints";
-@use "../sass/abstracts/mediaQueries";
+@use "../cds/components/buttons";
+@use "../cds/abstracts/mixins";
+@use "../cds/abstracts/breakpoints";
+@use "../cds/abstracts/mediaQueries";
 
 .oldnavy {
   // all components using  --secondary-background-color
