@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "../core-ui/components/Button/Button";
 import styles from "./GP.modules.scss";
-import { Container } from "../components/Container";
+import { Container } from "../core-ui/components/Container/Container";
 
 export const Gap = () => {
   // simulatiing featureFlag
